@@ -7,7 +7,7 @@ This repository is intended to study the functionality of the [Freezed](https://
 
 Build an elegant Github user query module step by step. The module will be implemented using Clean Architecture, with Unit Testing and Dependency Injection through Provider.
 
-### Atual Step
+### Current Step
 Learning how to use the unit features of Freezed. 
 - Sealed Class
 - Unions
@@ -15,4 +15,4 @@ Learning how to use the unit features of Freezed.
 - 
 ### Next Step 
 - HTTP request to Github API (with Dio)
-- Build entities, mappers, usecase, repository and datasource.
+- Build entities, mappers, usecase, repository and datasource
