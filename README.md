@@ -11,8 +11,8 @@ Build an elegant Github user query module step by step. The module will be imple
 Learning how to use the unit features of Freezed. 
 - Sealed Class
 - Unions
-- Json Serializable 
-- 
+- Json Serializable
+
 ### Next Step 
 - HTTP request to Github API (with Dio)
 - Build entities, mappers, usecase, repository and datasource
