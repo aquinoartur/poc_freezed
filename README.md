@@ -1,16 +1,14 @@
-# poc_freezed
+## Proof of Concept - Clean Archicteture with Freezed, Flutter_Bloc, Bloc_Test and Provider
 
-A new Flutter project.
+### Resume
+This repository is intended to study the functionality of the [Freezed](https://pub.dev/packages/freezed) package in conjunction with the [Flutter_Bloc](https://pub.dev/packages/flutter_bloc), [Bloc_Test](https://pub.dev/packages/bloc_test) and [Provider](https://pub.dev/packages/provider)  packages.
 
-## Getting Started
+### Motivation
 
-This project is a starting point for a Flutter application.
+Build an elegant Github user query module step by step. The module will be implemented using Clean Architecture, with Unit Testing and Dependency Injection through Provider.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Atual Step
+Learning how to use the unit features of Freezed. 
+- Sealed Class
+- Unions
+- Json Serializable 
