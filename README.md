@@ -12,3 +12,7 @@ Learning how to use the unit features of Freezed.
 - Sealed Class
 - Unions
 - Json Serializable 
+- 
+### Next Step 
+- HTTP request to Github API (with Dio)
+- Build entities, mappers, usecase, repository and datasource.
