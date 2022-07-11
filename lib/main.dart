@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:poc_freezed/modules/di/di_setup.dart';
 
 import 'modules/home/home_page.dart';
 
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 
