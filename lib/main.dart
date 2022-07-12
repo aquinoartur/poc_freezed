@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:poc_freezed/modules/di/di_setup.dart';
+import 'package:poc_freezed/modules/home/data/model/user_model.dart';
+import 'package:poc_freezed/modules/home/presentation/page/user_page.dart';
 
-import 'modules/home/home_page.dart';
+import 'modules/home/presentation/page/home_page.dart';
 
 void main() {
   configureDependencies();
@@ -15,9 +17,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 66, 40, 14),
+        ),
       ),
-      home: const HomePage(),
+      initialRoute: '/',
+      routes: <String, WidgetBuilder>{
+        '/': (BuildContext context) => const HomePage(),
+        UserPage.routeName: (BuildContext context) => UserPage(
+              user: ModalRoute.of(context)?.settings.arguments as UserModel,
+            ),
+      },
     );
   }
 }
