@@ -19,7 +19,10 @@ class _UserPageState extends State<UserPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.secondary,
+        iconTheme: const IconThemeData(color: Colors.white),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -33,8 +36,13 @@ class _UserPageState extends State<UserPage> {
                 ),
               ),
             ),
-            Text(widget.user.name),
-            Text(widget.user.username),
+            Text(
+              widget.user.name,
+              style: const TextStyle(fontSize: 24),
+            ),
+            Text(
+              widget.user.username,
+            ),
           ],
         ),
       ),

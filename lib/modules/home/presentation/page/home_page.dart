@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () => homeBloc.add(const HomeEvent.getUsers()),
         child: const Icon(Icons.refresh),
       ),
     );
