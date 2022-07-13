@@ -13,3 +13,6 @@ Trata-se de uma proposta de estruturação de projeto que faz uso das ferramenta
 
 O intuito dessas ferramentas é, além de agilizar desenvolvimento, eliminar o excesso de código manual desnecessário, uma vez que, por exemplo, a serialização de dados é tratada de forma nativa e não-manual em muitas linguagens modernas, e no Dart ainda não possuímos ferramentas nativas da linguagem que automatizem tal processo.
 
+ <p align="center">
+ <img  width="300" height="625" src="assets/preview.png">
+ <p/>
